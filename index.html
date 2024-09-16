@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simulasi Usaha</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="simulasi-usaha">
+    <header>Simulasi Usaha</header>
+    <div class="simulation">
+        <div class="control">
+            <label for="gaya">Gaya (F)</label>
+            <input type="range" id="gaya" name="gaya" min="0" max="100" value="0">
+            <span id="gayaValue">0 N</span>
+        </div>
+        <div class="control">
+            <label for="perpindahan">Perpindahan (s)</label>
+            <input type="range" id="perpindahan" name="perpindahan" min="0" max="100" value="0">
+            <span id="perpindahanValue">0 m</span>
+        </div>
+        <div class="hasil">
+            <label>Usaha (W)</label>
+            <div id="usaha">0 J</div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

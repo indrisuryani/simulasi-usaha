@@ -1,0 +1,129 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.simulasi-usaha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ccc;
+    background-image: url('background2.jpg'); /* Sesuaikan dengan gambar latar belakang yang diinginkan */
+}
+
+.simulation {
+  background: #282c34;
+  color: #61dafb; /* Warna biru lembut untuk nuansa teknologi dan sains */
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan agar elemen tampak lebih terangkat */
+  width: 500px; /* Memberikan lebar yang tetap */
+}
+
+/* Mengubah gaya slider */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 8px;
+  background: #ddd;
+  outline: none;
+  border-radius: 5px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #61dafb;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #61dafb;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+header {
+    background: linear-gradient(90deg, #1e8fff2f, #00bfffad);
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    font-size: 2.5rem; /* Ukuran font lebih besar */
+    font-weight: bold; /* Menambahkan ketebalan pada font */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Menambahkan bayangan pada teks */
+    border-radius: 10px; /* Membuat sudut melengkung pada header */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan untuk efek lebih elegan */
+    margin-bottom: 20px; /* Memberi jarak antara header dan konten lainnya */
+}
+
+
+.panel {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.control {
+    margin: 10px;
+}
+
+.control label {
+    margin-right: 10px;
+}
+
+.control input[type="range"] {
+    width: 200px;
+}
+
+.hasil {
+    margin-top: 20px;
+}
+
+
+span {
+    margin-left: 10px;
+}
+
+/* Gaya untuk label dan angka */
+label {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+span {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+/* Style untuk output Usaha */
+#usaha {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f9d71c; /* Warna kuning untuk menunjukkan pentingnya nilai usaha (Joule) */
+}
+
+/* Kotak simulasi */
+.scene {
+  background: #20232a;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.box {
+  width: 120px;
+  height: 60px;
+  background: #e3b505;
+  border: 2px solid #c49b0b;
+  border-radius: 5px;
+}
