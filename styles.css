@@ -128,6 +128,15 @@ span {
   border-radius: 5px;
 }
 
+.container {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+}
+
 footer {
     text-align: center;
     background-color: #f8f8f8;
